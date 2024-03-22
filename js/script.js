@@ -35,7 +35,9 @@ console.log (userNumber, typeof userNumber);
 
 // -Transformo le informazioni dell'utente in una password
 
-const userPassword = userName + userSurname + userColor + userNumber;
+let userPassword = userName + userSurname + userColor + userNumber;
+
+const result = userPassword.toLowerCase();
 
 console.log (userPassword, typeof userPassword);
 
@@ -44,7 +46,7 @@ console.log (userPassword, typeof userPassword);
 // -Stampo il risultato della password
 //Preparo il messagio da mostrare
 
-const resultMessage = `Ho generato la tua nuova password ed è ${userPassword}! Non condividerla con nessuno!`;
+const resultMessage = `Ho generato la tua nuova password ed è ${result}! Non condividerla con nessuno!`;
 
 console.log (resultMessage);
 
