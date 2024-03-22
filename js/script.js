@@ -17,7 +17,7 @@ const userSurname = prompt ("Qual è invece il tuo cognome?"); //string
 
 console.log (userSurname, typeof userSurname);
 
-// -Con un prompy chiediamo all'utente il suo colore preferito
+// -Con un prompt chiediamo all'utente il suo colore preferito
 
 const userColor = prompt ("Ora dimmi il tuo colore preferito"); //string
 
